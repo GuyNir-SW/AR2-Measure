@@ -13,6 +13,7 @@
 		48F1E509235207E8000092BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F1E507235207E8000092BA /* Main.storyboard */; };
 		48F1E50B235207E9000092BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F1E50A235207E9000092BA /* Assets.xcassets */; };
 		48F1E50E235207E9000092BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F1E50C235207E9000092BA /* LaunchScreen.storyboard */; };
+		48F1E5162352D11C000092BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1E5152352D11C000092BA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48F1E50A235207E9000092BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F1E50D235207E9000092BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F1E50F235207E9000092BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F1E5152352D11C000092BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		48F1E500235207E8000092BA /* AR2-Measure */ = {
 			isa = PBXGroup;
 			children = (
+				48F1E5152352D11C000092BA /* Extensions.swift */,
 				48F1E501235207E8000092BA /* AppDelegate.swift */,
 				48F1E503235207E8000092BA /* SceneDelegate.swift */,
 				48F1E505235207E8000092BA /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				48F1E506235207E8000092BA /* ViewController.swift in Sources */,
 				48F1E502235207E8000092BA /* AppDelegate.swift in Sources */,
 				48F1E504235207E8000092BA /* SceneDelegate.swift in Sources */,
+				48F1E5162352D11C000092BA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

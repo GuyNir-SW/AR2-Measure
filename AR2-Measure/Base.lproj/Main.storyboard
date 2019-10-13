@@ -18,35 +18,35 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HI0-Le-fof">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </arscnView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HQo-dL-STG">
-                                <rect key="frame" x="26" y="74" width="169" height="20.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HQo-dL-STG">
+                                <rect key="frame" x="20" y="74" width="374" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfi-Ug-Rev">
                                         <rect key="frame" x="0.0" y="0.0" width="67" height="20.5"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYO-5q-Hlb">
-                                        <rect key="frame" x="92" y="0.0" width="9" height="20.5"/>
+                                        <rect key="frame" x="160.5" y="0.0" width="9" height="20.5"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGr-9C-1mL">
-                                        <rect key="frame" x="126" y="0.0" width="9" height="20.5"/>
+                                        <rect key="frame" x="262.5" y="0.0" width="9" height="20.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="z" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EK-8R-WP2">
-                                        <rect key="frame" x="160" y="0.0" width="9" height="20.5"/>
+                                        <rect key="frame" x="365" y="0.0" width="9" height="20.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -69,6 +69,9 @@
                             <constraint firstItem="er9-eR-ZZR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LhO-EV-u44"/>
                             <constraint firstItem="HI0-Le-fof" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YZF-Qr-cwU"/>
                             <constraint firstAttribute="bottom" secondItem="HI0-Le-fof" secondAttribute="bottom" id="aGb-KA-z9M"/>
+                            <constraint firstItem="HQo-dL-STG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="m30-Nn-9bh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HQo-dL-STG" secondAttribute="trailing" constant="20" id="sL3-fx-f1W"/>
+                            <constraint firstItem="HQo-dL-STG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ufi-Wm-F3N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
